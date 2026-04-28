@@ -30,7 +30,8 @@ function App() {
       }
 
       setError('Invalid username or password.')
-    } catch {
+    } catch(error) {
+      console.error('Error:', error)
       setError('Unable to reach the backend server.')
     } finally {
       setIsLoading(false)
