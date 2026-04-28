@@ -53,7 +53,7 @@ function App() {
   return (
     <main className="app">
       <section className="login-card" aria-label="Admin login">
-        <p className="eyebrow">Admin Panel</p>
+        <p className="eyebrow">Admin's Panel</p>
         <h1>Sign in</h1>
         <p className="subtitle">Use your admin credentials to continue.</p>
 
